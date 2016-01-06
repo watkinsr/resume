@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=latex 2015.12.17)  28 DEC 2015 07:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=latex 2015.12.17)  29 DEC 2015 05:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,12 @@ entering extended mode
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 79 languages loaded.
 (./res.cls
-Document Style `res' <26 Sep 89>.
-Document Class: res 2000/05/19 v1.4b Resume class
+Document Style `resume' <26 Sep 89, Dec 07>.
+
+LaTeX Warning: You have requested document class `res',
+               but the document class provides `resume'.
+
+Document Class: resume 2000/05/19 v1.4b Resume class
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
@@ -60,12 +64,12 @@ LaTeX Font Info:    ... okay on input line 8.
 
 ] ) 
 Here is how much of TeX's memory you used:
- 283 strings out of 493055
- 2981 string characters out of 6140611
+ 291 strings out of 493055
+ 3053 string characters out of 6140611
  55676 words of memory out of 5000000
- 3891 multiletter control sequences out of 15000+600000
+ 3899 multiletter control sequences out of 15000+600000
  4554 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,4n,21p,189b,98s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on references.dvi (1 page, 1560 bytes).
+Output written on references.dvi (1 page, 1572 bytes).

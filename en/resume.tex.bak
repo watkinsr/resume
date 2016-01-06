@@ -1,0 +1,120 @@
+\documentclass[line, margin, 10pt]{res}
+\setlength{\parskip}{9pt}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\renewcommand{\namefont}{ \LARGE \bf }
+% \renewcommand{\titlefont}{ \bf }
+
+\name{Ryan Watkins}
+
+\begin{resume}
+
+\section{\textsc{Contact Information}}
+Pilgerhausstrasse 31.  \hfill{r.watkins@student.reading.ac.uk}\\
+86152, Augsburg \hfill{(+44) 7903 029 399}\\
+Deutschland 
+
+\section{\textsc{Experience}}
+
+% Not using the position element here, as I don't like the formatting options.
+
+{\bf Feistybird}, London, United Kingdom \hfill{\url{http://www.feistybird.com/}} \\
+\textit{Founding Engineer and CTO} \hfill {\bf September 2014 - Now}\\
+Founded and developed 'Feistybird', a service that moderates and displays social feeds from hashtags, adds event agendas and customizes the final display layout. The service is used by multiple global companies.
+Technologies used include SQL, JS, PHP, React, AWS, Unix, Node.js, CSS and HTML
+
+{\bf Allianz Global Investors GmbH}, Munich, Germany\\
+{\it Frontend Developer (Internship)} {\bf \hfill July 2015 - September 2015}\\
+Improved UX/UI for 'TimeScape Explorer' (Investing UI). Integrated various open source libraries into the existing ASP.NET framework such as 'Handsontable' and 'MetricGraphics'.
+ Coordination with project integrating new database schema. Performance optimization on large datasets from SQL database. Technologies used were Git, jQuery, ASP.NET and native JS
+
+{\bf Oxford City Council}, Oxford, United Kingdom\\
+{\it Business Improvement} {\bf \hfill June 2014 - October 2014}\\
+Created a full independent system to protect important documents for entire company.  Trained new IT Support Analysts. Produced reports from MySQL queries. Management of employee phones database. Technologies used were C\#, Visual Basic and XML.
+
+\section{\textsc{Education}}
+{\bf Bachelor of Computer Science}, University of Reading {\bf \hfill September 2013 - July 2016}\\
+GPA: 3.5 \\
+\\
+\begin{tabular}[t]{@{} p{1.2in} p{3.75in} @{}}
+\bf{Modules(Y1):}  & Computer Architecture,
+  Programming, 
+  Software Engineering,
+  Maths for Computer Science,
+  Fundamentals of Computing,
+  Computer Applications,
+\end{tabular}
+
+\begin{tabular}[t]{@{} p{1.2in} p{3.75in} @{}}  
+\bf{Modules(Y2):}  & Compilers,
+  Operating Systems,
+  Neural Networks,
+  Machine Intelligence,
+  Java,
+  Computer Architecture,
+  Advanced Databases,
+  Databases,
+  Essential Algorithms,
+  Systems Design and Project Management
+\end{tabular}
+
+\begin{tabular}[t]{@{} p{1.2in} p{3.75in} @{}}  
+\bf{Modules(Y3):}  & Social, Legal and Ethical Aspects of Science and Engineering,
+  Individual Project,
+  Data Mining,
+  Concurrent Systems,  
+  Evolutionary Computation,
+  Virtual Reality,
+  Computer Networking
+\end{tabular}
+
+\section{\textsc{Skills}}
+   \begin{tabular}[t]{@{} p{1.2in} p{3.75in} @{}}
+     \bf{In Production:} & JS, React, PHP, Python, Node.js, MySQL, Post\nopagebreak[4]greSQL, Bash Shell Scripting, Linux, AWS, ASP.NET \\
+    \\
+    \bf{In General:} & C\#, C++, Java, C  \\
+    \\
+    \bf{Preferred Stack:} & JS, Node.js, React, Sass, Git, PHP \\
+ \end{tabular}
+
+\section{\textsc{Projects}}
+{\bf 2D SDL RPG Engine} {\bf \hfill 2013}\\
+Framework to allow developers to make their own 2D RPG's in C++. \textit{100\% grade awarded} in first semester. Over 3000 lines of code. Technologies used were SDL and C++.  \\
+GitHub Repository: \url{http://github.com/watkinsr/SDL-RPG}
+
+{\bf Quantum Programming Language} {\bf \hfill 2016}\\
+Third semester project, full simulator and language that runs Deutsch's algorithm and C-like code.\\ Research paper to come soon (April 2016). Technologies used: Python, C, YACC and LEX.\\ 
+GitHub Repository: \url{http://github.com/watkinsr/QuantumPLToy}
+
+{\bf Easyquantum - Quantum Computing Lessons} {\bf \hfill 2015}\\
+Project to teach computer scientists about quantum computing. \\
+Website: \url{http://watkinsr.github.io/easyquantum/}
+\\\\\\\\\\
+{\bf Quantum Computing for Computer Scientists Drills {\bf \hfill 2015}} \\
+Exercises completed from the book: Quantum Computing for Computer Scientists. Programmed in Python to illustrate quantum computing concepts.\\
+GitHub Repository: \url{https://github.com/watkinsr/QuantumComputingDrills}
+
+\section{\textsc{Community Involvement}}
+
+{\bf Mentor for Android Game Development MOOC}, FutureLearn Ltd {\bf \hfill 2014-2016}\\
+Answering various Java and Android related questions from participants
+
+\section{\textsc{Honors}}
+
+{\bf Software Engineering Winner}, University of Reading {\bf \hfill 2014}\\
+{\bf Best Team Participation (The EDGE Project)}, Carshalton College {\bf \hfill 2013}
+
+\section{\textsc{Languages}}
+\begin{tabular}[t]{@{} p{1.2in} p{3.75in} @{}}
+
+\textbf{English} & Native\\ 
+\textbf{German} & Professional\\ \textbf{Chinese} & Basic
+
+\end{tabular}
+
+\end{resume}
+\end{document}

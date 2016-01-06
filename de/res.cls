@@ -2,12 +2,12 @@
 %    for LaTeX version 2.09
 % Copyright (C) 1988,1989 by Michael DeCorte
 
-\typeout{Document Style `res' <26 Sep 89>.}
+\typeout{Document Style `resume' <26 Sep 89, Dec 07>.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% res.sty
+% resume.sty
 %
-% \documentstyle{res}
+% \documentstyle{resume}
 %
 % Copyright (c) 1988 by Michael DeCorte
 % Permission to copy all or part of this work is granted, provided
@@ -180,7 +180,7 @@
 % write docs to tell people how to use this
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{res}[2000/05/19 v1.4b Resume class]
+\ProvidesClass{resume}[2000/05/19 v1.4b Resume class]
 
 %\DeclareOption{11pt}{\renewcommand\@ptsize{1}}
 %\DeclareOption{12pt}{\renewcommand\@ptsize{2}}
@@ -275,7 +275,7 @@
 % unless you really understand all of this but it is not
 % hard.  Either way, it can only be executed once
 %
-\def\sectionfont{\bf}
+\def\sectionfont{}
 \newdimen\sectionwidth
 \newskip\sectionskip
 \newdimen\resumewidth
@@ -440,10 +440,9 @@
 %    the text next to it
 %
 \let\@@section\relax
-\def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let
-  \@@section\unboxed@sectiontitle\fi}
-\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let
-  \@@section\boxed@sectiontitle\fi}
+\def\ds@overlapped{\ifx\@@section\relax\newsectionwidth{0.5in}\let\@@section\unboxed@sectiontitle\fi}
+%\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.3in}\let\@@section\boxed@sectiontitle\fi}
+\def\ds@margin{\ifx\@@section\relax\newsectionwidth{1.1in}\let\@@section\boxed@sectiontitle\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DEFAULTS: (some of them)
@@ -787,7 +786,7 @@
 \def\@listI{\leftmargin\leftmargini
 \topsep 0pt 
 \parskip 0pt
-\partopsep 2pt plus 2pt
+\partopsep 10pt plus 2pt
 \parsep 2pt plus 2pt
 \itemsep \parsep}
 
@@ -801,3 +800,44 @@
 
 \let\section\@@section
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% @brief    LaTeX2e Resume Style Config
+% @url      http://linux.dsplabs.com.au/?p=54
+% @date     Decemebr 2007
+% @author   Kamil K Wojcicki
+% @info     This a fusion of resume template code by Chris Paciorek
+%           (url: http://www.biostat.harvard.edu/~paciorek/computingTips/Latex_template_creating_CV_.html)
+%           and res.cls class by Michael DeCorte.
+%           I have merged these for educational purposes only.
+
+\oddsidemargin -11mm
+\evensidemargin -11mm
+%\textwidth=150mm
+\textwidth=154mm
+\itemsep=0cm
+\parsep=0cm
+\topmargin -12mm
+%\textheight 265mm
+\textheight 275mm
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0in}}}{\end{list}}
+
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.25in}}}{\end{list}}
+
+%\newcommand{\mysidestyle}{\footnotesize\sc}
+\newcommand{\mysidestyle}{\small\sc}
+\newcommand{\myheadingstyle}{\sl}
+\newcommand{\mysubheadingstyle}{\sl}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
