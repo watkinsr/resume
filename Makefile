@@ -3,7 +3,7 @@ JUNK_FILES= *.aux *.log styles/*.aux *.dvi
 release: clean view
 
 view: resume.pdf
-	open resume.pdf
+	zathura resume.pdf
 
 resume.pdf: resume.dvi
 	dvipdfmx resume.dvi
