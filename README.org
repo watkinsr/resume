@@ -1,5 +1,2 @@
-#+TITLE: README
-My up-to-date resume.
-
 * Description
 Full-stack developer CV, click here to see: https://github.com/watkinsr/resume/raw/master/resume.pdf
